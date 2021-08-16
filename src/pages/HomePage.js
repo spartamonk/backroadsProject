@@ -11,11 +11,11 @@ import {
 } from '../components'
 import { useGlobalContext } from '../context/Context'
 const HomePage = () => {
-  const { toggleNavbar } = useGlobalContext()
+  const { closeNavbar } = useGlobalContext()
   return (
     <>
       <Header />
-      <main id='home' onClick={toggleNavbar}>
+      <main id='home' onClick={closeNavbar}>
         <Hero />
         <About />
         <Services />
