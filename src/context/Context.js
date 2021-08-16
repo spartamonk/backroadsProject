@@ -19,7 +19,7 @@ const handleClick =(e)=> {
   const location = document.querySelector(target).offsetTop;
   window.scrollTo({
     left: 0,
-    top: location - 64,
+    top: location - 62,
   })
 }
 
